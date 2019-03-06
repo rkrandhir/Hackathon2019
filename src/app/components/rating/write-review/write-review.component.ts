@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { WriteReviewModel } from './write-review.model';
 import { WriteReviewService } from './write-review.service';
-import { GetdataService } from 'src/app/services/getdata.service';
+import { GetdataService } from '../../../services/getdata.service';
 import { FormGroup, FormBuilder, Validators, FormControl, FormArray } from '@angular/forms';
 import { DatePipe } from '@angular/common';
 

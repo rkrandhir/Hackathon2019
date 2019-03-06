@@ -31,7 +31,8 @@ export class WriteReviewComponent implements OnInit {
   get email() { return this.reviewForm.get('email')}
 
   //list of pattern
-  private pattern_email = "^[a-zA-Z0-9]{3,}$"; //alphanumeric
+  //private pattern_email = "^[a-zA-Z0-9]{3,}$"; //alphanumeric
+  private pattern_email = '/^([\w\.\+]{1,})([^\W])(@)([\w]{1,})(\.[\w]{1,})+$/'; //alphanumeric
 
   constructor(
     private WriteReviewService: WriteReviewService, 
@@ -52,7 +53,7 @@ export class WriteReviewComponent implements OnInit {
       review:['', [Validators.required, Validators.minLength(3), Validators.maxLength(500)]],
       recommendation: ['true'],
       name: ['', [Validators.required, Validators.maxLength(25)]],
-      email: ['', [Validators.required, Validators.pattern(this.pattern_email)]],
+      email: ['', [Validators.required, Validators.email]],
       gender: ['true']
     });
   }

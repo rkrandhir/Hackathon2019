@@ -61,30 +61,47 @@ You may want to have a look at the demo https://hackathon2019.stackblitz.io
 
 
 > USE CASE 5
+
 **When:**	In Rating & Reviews section (below the image), when you click on POST REVIEW button
+
 **Then:**	The submit button should be initially disabled and should only get enabled once your form is ready to be submitted
+
 **Then:**	All the form elements should be filled and appropriate error should be displayed in case of error
+
 
 > USE CASE 6
 
+
 **When:**	in POST YOUR REVIEW popup, when you are in middle of filling up form and clicked on cancel button
+
 **Then:**	The current post review popup should disappear and a confirmation popup should appear asking “Are you sure to discard the changes?”
+
 
 	
 > USE CASE 7
+
 **When:**	in POST YOUR REVIEW CONFIRMATION popup, if you click on YES button
+
 **Then:**	pop up should disappear 
+
 **Then:**	No change in product page
 
 
 > USE CASE 8
+
 **When:**	in POST YOUR REVIEW CONFIRMATION popup, if you click on NO button
+
 **Then:**	pop up should disappear and POST YOUR REVIEW popup should appear with already filled data
 
 
+
 > USE CASE 9
+
 **When:**	in POST YOUR REVIEW popup, if you click on SUBMIT button
+
 **Then:**	It should close the popup and the data you submitted should be visible in reviews section
+
 **Then:**	Based on your given rating, the overall rating should be updated.
+
 
 

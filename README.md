@@ -23,14 +23,19 @@ You may want to have a look at the demo https://hackathon2019.stackblitz.io
 ![test cases](USE_CASES.docx)
 
 > USE CASE 1
-###When	at the product-list page, you mouse over on any product and click on EYE icon
-###Then	It takes you to individual product page
-###Then	The current rating of the product is visible beneath product name
 
+When	at the product-list page, you mouse over on any product and click on EYE icon
 
-USE CASE 2
+Then	It takes you to individual product page
+
+Then	The current rating of the product is visible beneath product name
+
+> USE CASE 2
+
 When	At product page, you go to Rating & Reviews section (below the image)
+
 Then	A list of reviews is visible along with following details
+
 1.	Date/time of post
 2.	Reviewer details (Name/email/Gender)
 3.	Review comments

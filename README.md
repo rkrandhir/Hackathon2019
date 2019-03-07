@@ -1,15 +1,11 @@
-# Hackathon 2019
+# Hackathon 2019 (Component: Review and ratings)
 
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
+
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 ![alt text](img/products.jpg)
 

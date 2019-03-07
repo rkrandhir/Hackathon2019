@@ -33,4 +33,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ![alt text](img/mobile_view.jpg)
 
 ## Demo
-You may want to have a look at the demo https://hackathon2019-ersedge022019007.stackblitz.io
+You may want to have a look at the demo https://hackathon2019.stackblitz.io

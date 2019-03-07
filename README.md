@@ -22,10 +22,10 @@ You may want to have a look at the demo https://hackathon2019.stackblitz.io
 ## Test cases
 ![test cases](USE_CASES.docx)
 
-USE CASE 1
-When	at the product-list page, you mouse over on any product and click on EYE icon
-Then	It takes you to individual product page
-Then	The current rating of the product is visible beneath product name
+> USE CASE 1
+###When	at the product-list page, you mouse over on any product and click on EYE icon
+###Then	It takes you to individual product page
+###Then	The current rating of the product is visible beneath product name
 
 
 USE CASE 2

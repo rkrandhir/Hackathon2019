@@ -17,7 +17,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ![alt text](img/mobile_view.jpg)
 
 ## Demo
-You may want to have a look at the demo https://hackathon2019.stackblitz.io
+You may want to have a look at the demo 
+
+https://hackathon007.stackblitz.io
+
+
 
 ## Test cases
 The word file is attached.
@@ -102,6 +106,3 @@ The word file is attached.
 **Then:**	It should close the popup and the data you submitted should be visible in reviews section
 
 **Then:**	Based on your given rating, the overall rating should be updated.
-
-
-

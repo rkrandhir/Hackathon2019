@@ -1,9 +1,12 @@
 # Hackathon 2019 
-This applications features these components:
-(a) Review and ratings
-(b) Google Map
 
+This project features these components:
+1. Rating & review 
+2. Google Map
 
+### Components
+#### Rating & Review <rating>
+#### Google Map <Store-locator>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 

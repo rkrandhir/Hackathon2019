@@ -27,9 +27,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ![alt text](img/confirmation.jpg)
 
+![alt text](img/store_locator.jpg)
+
 ### Mobile view
 
 ![alt text](img/mobile_view.jpg)
+
+![alt text](img/store_locator_mobile.jpg)
 
 ## Demo
 You may want to have a look at the demo 
@@ -40,6 +44,25 @@ https://hackathon007.stackblitz.io
 
 ## Test cases
 The word file is attached.
+
+### Store Locator (Google Map)
+
+> USE CASE 1
+
+**When:**	at the product-list page, you click on STORE icon
+
+**Then:**	The page is visible listing all the stores (from JSON Data)
+
+**Then:**	The store location is also visible on the google map
+
+
+> USE CASE 2
+
+**When:**	at the store locator page, you click on MARKER icon
+
+**Then:**	A popup opens showing details of the respective store. 
+
+### Rating & Review
 
 > USE CASE 1
 

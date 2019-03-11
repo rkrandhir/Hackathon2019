@@ -12,7 +12,9 @@ No dependency. You need to use "rating" component in the project.
 #### Google Map
 
 You need to use "store-locator" component in the project.
+```
 npm install @agm/core --save
+```
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.

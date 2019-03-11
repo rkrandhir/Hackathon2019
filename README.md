@@ -1,4 +1,7 @@
-# Hackathon 2019 (Component: Review and ratings)
+# Hackathon 2019 
+This applications features these components:
+(a) Review and ratings
+(b) Google Map
 
 
 
